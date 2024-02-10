@@ -1,0 +1,109 @@
+body{
+    /* border: 1px solid black; */
+    /* margin: 5px; */
+    border-radius: 20px;
+    height: auto;
+
+}
+.maintheme{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-top: 8px;
+}
+.header{
+    text-decoration: none;
+    text-align: center ;
+    border-radius: 15px;
+    background-color:rgb(144 202 55);
+    height: 80px;
+}
+.main{
+    /* border: 1px solid red; */
+    border-style: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 5px; */
+    height: auto;
+}
+
+.left{
+    flex: 40%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-style: none;
+}
+.right{
+    flex: 60%;
+    background-color:rgb(41 226 219 / 79%);    ;
+    border-radius: 20px;
+    border-style: none;
+}
+.container {
+    width: 65%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top:20% ;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 30%;
+    background-image:url("https://www.whitechapelgallery.org/wp-content/uploads/2020/07/blank-head-profile-pic-for-a-man.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .container h1 {
+        font-size: 18px;
+    }
+
+    .container p {
+        font-size: 12px;
+    }
+}
+.headInfo{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.persanolinfo{
+    padding-left: 15px;
+}
+span{
+    color: red;
+}
